@@ -5,13 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Articulos para motos</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light p-3 mb-2 bg-warning text-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-white" href="#">e-commerce</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link text-white " href="#">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="#" class="nav-text">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white " href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white " href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="border border-white ">
+              <button class="btn btn-warning " type="submit"><i
+                  class="fas fashopping-basket text-light"></i> <img class="carrito" src="assets/img/2038854.png" alt=""></button>
+            </form>
+          </div>
+        </nav>
+      </header>
+      <main>
+      
+        <div class="container">
+          <h2 class="">Artículos de ciclismo</h2>
+          <hr>
+          <div class="row">
+            <div class="col-sm">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="assets/img/casco.jpg" alt="casco">
+                <div class="card-body">
+                  <h5 class="card-title">Casco</h5>
+                  <p class="card-text">Casco especial para ciclistas de ciudad</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">3 Unidades disponiles</li>
+                  <li class="list-group-item text-center font-weight-bold">$30.000</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Comprar ahora</a>
+                  <a href="#" class="card-link">Agregar al carrito</a>
+                </div>
+              </div>
+              </div>         
+          
+            <div class="col-sm">
+              <div class="card">
+                <img class="img2" class="card-img-top"src="assets/img/guantes.jpg" alt="guantes">
+                <div class="card-body">
+                  <h5 class="card-title">Guantes</h5>
+                  <p class="card-text">Guantes con relleno de silicona</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">10 Unidades disponiles</li>
+                  <li class="list-group-item text-center font-weight-bold">$9.500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Comprar ahora</a>
+                  <a href="#" class="card-link">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          
     
+            <div class="col-sm">
+              <div class="card" class="card__num3">
+                <img class="card-img-top" src="assets/img/led.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Luces led</h5>
+                  <p class="card-text">Luces rojas de alta intencidad</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">8 Unidades diponibles</li>
+                  <li class="list-group-item text-center font-weight-bold">$12.000</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Compra ahora</a>
+                  <a href="#" class="card-link">Agregar a carrito</a>
+                </div>
+              </div>
+    
+              </div>
+            </div>
+         
+        
+        </div>
+    
+      
+        
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="assets/img/botella.jpg" alt="botella">
+                <div class="card-body">
+                  <h5 class="card-title">Botella</h5>
+                  <p class="card-text">Botella de 500ml, especial para llevar agua a tus aventuras.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">18 Unidades disponibles</li>
+                  <li class="list-group-item text-center font-weight-bold">$3.000</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Comprar ahora</a>
+                  <a href="#" class="card-link">Agregar al carrito</a>
+                </div>
+              </div>
+              </div>         
+          
+            <div class="col-sm">
+              <div class="card">
+                <img class="img2"class="card-img-top"src="assets/img/camara.jpg" alt="guantes">
+                <div class="card-body">
+                  <h5 class="card-title">Camara aro 27.5</h5>
+                  <p class="card-text">Camara para bicicleta aro 27.5 con valvula fracesa.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">64 Unidades disponiles</li>
+                  <li class="list-group-item text-center font-weight-bold">$4.500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Comprar ahora</a>
+                  <a href="#" class="card-link">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm">
+              <div class="card" class="num4">
+                <img class="num4__img" class="card-img-top"  src="assets/img/chaleco.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Chaleco reflectante </h5>
+                  <p class="card-text">Chaleco reflectante talla unica </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">8 Unidades diponibles</li>
+                  <li class="list-group-item text-center font-weight-bold">$5.000</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Compra ahora</a>
+                  <a href="#" class="card-link">Agregar a carrito</a>
+                </div>
+              </div>
+    
+              </div>
+            </div>
+         
+        
+        </div>
+      </main>
+      <footer  class="bg-warning"  class="footer" >
+       <div class="span">
+        <span class="text-left text-white text-uppercase ">Todos los derechos reservados, 2021</span>
+       </div> 
+      </footer>
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+
+
+
 </body>
 </html>
